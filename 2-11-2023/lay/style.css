@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main {
+    border: 2px solid;
+}
+.head {
+    text-align: center;
+    border: 2px solid;
+    padding: 20px;
+    margin: 22px;
+}
+.nav {
+    text-align: center;
+    border: 2px solid;
+    padding: 20px;
+    margin: 22px;
+}
+.table {
+    position: relative;
+    right: 0px;
+}
+.sctn {
+    border: 2px solid;
+    margin: 22px;
+    padding: 60px;
+    width: 395px;
+    
+}
+.sct {
+    position: absolute;
+    border: 2px solid;
+    /* margin: 22px; */
+    padding: 60px;
+    right: 23px;
+    top: 0px;
+    width: 47%;
+    height: 199px;
+}
+.footer {
+    text-align: center;
+    border: 2px solid;
+    padding: 20px;
+    margin: 22px;
+}

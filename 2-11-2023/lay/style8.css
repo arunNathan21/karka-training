@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.bsa {
+    border: 5px solid #000;
+}
+.head1 {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    background: #e22bdc;
+    color: #fff;
+}
+.nav1 {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    background: #900be3;
+    color: #fff;
+}
+.sctn1 {
+    border: 0px solid;
+    padding: 122px 0px;
+    width: 200px;
+    text-align: center;
+    /* height: 199px; */
+    background: #e22bdc;
+    color: #fff;
+    
+}
+.footer1 {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    background: #900be3;
+    color: #fff;
+}
+.sct1 {
+    position: absolute;
+    border: 0px solid;
+    /* margin: 22px; */
+    padding: 60px;
+    right: 0px;
+    top: 148px;
+    width: 74%;
+    text-align: center;
+    height: 199px;
+}

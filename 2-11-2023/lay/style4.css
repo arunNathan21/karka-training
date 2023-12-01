@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.head {
+    text-align: center;
+    border: 6px solid rgb(0, 204, 255);
+    padding: 18px;
+    margin: 6px;            
+}
+.latva {
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    
+}
+.abslt1 {
+    position: absolute;
+    left: 0px;
+    border: 6px solid rgb(0, 204, 255);
+    padding: 20px;
+    /* margin: 0px; */
+    width: 124px;
+    height: 506px;
+    
+}
+.abslt2 {
+    position: absolute;
+    left: 13%;
+    padding: 50px;
+    border: 6px solid rgb(0, 204, 255);
+    height: 226px;
+    min-width: 196vh;
+}
+
+.abslt3 {
+    position: absolute;
+    left: 80%;
+    padding: 50px;
+    border: 6px solid rgb(0, 204, 255);
+    height: 226px;
+    width: 158px;
+}
+.abslt4 {
+    position: absolute;
+    left: 13%;
+    padding: 50px;
+    border: 6px solid rgb(0, 204, 255);
+    height: 110px;
+    margin-top: 259px;
+    min-width: 261vh;
+    top: 77px;
+}

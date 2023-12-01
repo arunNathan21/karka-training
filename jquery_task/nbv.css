@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.gradient-background {
+    background: linear-gradient(338deg,#d83cc1,#7064ab,#71ccc5,#1b0ec4);
+    background-size: 240% 240%;
+    animation: gradient-animation 28s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.heading {
+    font-size: 35px;
+    /* border: 3px solid; */
+    text-align: center;
+    margin: 20px;
+    background: #1f6a6a;
+    color: blanchedalmond;
+}
+.in_form {
+    text-align: center;
+}
+.input_fm {
+    padding: 10px 74px;
+    margin: 21px;
+    color: #fff;
+}
+.name {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.btn1 {
+    padding: 10px 40px;
+    font-size: 23px;
+    border: 0;
+    background: bisque;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.in_box {
+    margin: 6px 225px;
+    /* border: 1px solid; */
+    padding: 56px;
+    background: #152144;
+    color: #fff;
+}

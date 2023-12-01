@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    
+}
+.head1 {
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+}
+.nav1 {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    background: darkorange;
+}
+.sctn1 {
+    border: 0px solid;
+
+    padding: 60px;
+    width: 107px;
+    height: 199px;
+    background: blue;
+    
+}
+.footer1 {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    background: brown;
+}
+.sct1 {
+    position: absolute;
+    border: 0px solid;
+    /* margin: 22px; */
+    padding: 60px;
+    right: 0px;
+    background-color: green;
+    top: 67px;
+    width: 75%;
+    height: 199px;
+}

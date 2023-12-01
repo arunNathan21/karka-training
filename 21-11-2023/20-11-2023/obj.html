@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  onsubmit="handlesubmit(event)">
+        <label for="input1">name</label>
+        <input type="text" id="input1"><br>
+        <label for="input2" >DOB</label>
+        <input type="date" id="input2"><br>
+        <label for="input3">Salary</label>
+        <input type="number" id="input3"><br>
+        <button>submit</button>
+    </form>
+</body>
+<script src="">
+    function handlesubmit(e){
+        e.preventDefault()
+    const form1 = document.getElementById("input1").value
+    const form2 = document.getElementById("input2").value
+    const form3 = document.getElementById("input3").value
+    let myvalue = {
+        name : form1,
+        dob : form2,
+        salary : form3
+
+    }
+console.log(myvalue)
+    }
+
+</script>
+</html>

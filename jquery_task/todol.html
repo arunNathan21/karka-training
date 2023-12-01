@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<title>To Do List</title> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="todol.css">
+</head> 
+
+<body class="gradient-background "> 
+	 
+	<div class="heading">
+		<h2>To Do List</h2> 
+	</div>
+	<div class="sus"> 
+		<label id="lblsuccess"
+				style="display: none;"> 
+		</label> 
+		<div class="in_box">
+		<form id="addForm"> 
+			<div class="in_form "> 
+				<div class=""> 
+					<label for="" class="name">name:</label>
+					<input type="text" onkeyup= 
+						"toggleButton(this, 'submit')"
+						class="input_fm" id="item"> 
+				</div> 
+
+				<div class=""> 
+				<input type="submit" class="btn1"
+						id="submit" value="Submit" > 
+				</div> 
+			</div> 
+		</form> 
+	</div>
+		<h3 class="">list</h3> 
+		
+		<form id="addForm" class="fv"> 
+			<table>
+				<thead>
+					<tr>
+						<td>
+							<!-- <ul class="" id="items2"></ul> -->
+						</td>
+						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><ul class="" id="items"></ul></td>
+					</tr>
+				</tbody>
+			</table>
+			 
+		</form> 
+	</div> 
+  <script src="todol.js"></script>
+</body> 
+
+</html> 

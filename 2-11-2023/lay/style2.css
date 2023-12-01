@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.head1 {
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+}
+.nav1 {
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+}
+.sctn1 {
+    border: 1px solid;
+
+    padding: 60px;
+    width: 107px;
+    height: 199px;
+    
+}
+.footer1 {
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+}
+.sct1 {
+    position: absolute;
+    border: 1px solid;
+    /* margin: 22px; */
+    padding: 60px;
+    right: 0px;
+    top: 148px;
+    width: 74%;
+    height: 199px;
+}

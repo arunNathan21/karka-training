@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.L_header {
+    padding: 16px 0;
+    background: #213b52;
+    padding: 20px;
+
+}
+.L_header a {
+    color: #fff;
+    text-decoration: none;
+}
+.L_header2 {
+    display: flex;
+}
+.L_header2 .at i {
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #adc7de;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.get a {
+    border: 3px solid #fdc134;
+    border-radius: 44px;
+    padding: 11px 38px;
+}g
+
+.at a:hover {
+    color : #c6bbbb;
+ }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4%;
+}
+.dropbtn1 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropbtn:hover .dropdown-content {display: block;}
+.dropbtn1:hover .dropdown-content1 {display: block;}
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+.L_header2 .ah {
+    flex-grow: 4;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.L_header2 .ah span {
+    color: #fdc134;
+}
+.at {
+    flex-grow: 1;
+}
+.digital {
+    display: flex;
+}
+.Bocor h2 {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 35% 0px 0px 7%;
+    line-height: 56px;
+    color: #d2e0ed;
+    font-family: "Poppins", sans-serif;
+}
+.Bocor p {
+    color: #d2e0ed;
+    padding: 11px 0 0 51px;
+}
+

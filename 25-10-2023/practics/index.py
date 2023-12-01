@@ -1,0 +1,7 @@
+# print ("Arun")
+# print (input("enter your name"))
+# print(7)
+# print(input(5))
+# print("hello,world")
+# print("hello.....world")
+print("hello! world")

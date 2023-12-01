@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.ach {
+    color: white;
+    background-color: red;
+    padding: 30px;
+    font-size: 26px;
+}
+.ac {
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+.georgia p {
+    font-size: 25px;
+    font-family: Georgia;
+}
+.upper {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px;
+}
+.google {
+    text-decoration: none;
+    list-style-type: none;
+}
+.aud {
+    border: 1px solid #000;
+}
+.amet p {
+    width: 500px;
+    height: 50px;
+    border: 1px solid #000;
+}
+.voluptas {
+    width: 500px;
+}
+.saepe h4 {
+    border: 1px solid #000;
+    padding: 30px;
+}
+.quaerat {
+    border: 1px solid #000;
+    margin: 30px;
+}
+.dopad {
+    padding: 30px;
+    border: 1px solid red;
+}
+.dopad2 {
+    margin: 30px;
+    border: 1px solid #000;
+}
+.retext {
+    position: relative;
+    border: 3px solid green;
+    height: 250px;
+    width: 600px;
+
+}
+.abtest {
+    position: absolute;
+    border: 3px solid green;
+    width: 200px;
+}
+.abtests {
+    position: absolute;
+    border: 3px solid green;
+    width: 200px;
+    right: 0px;
+}
+.abtst {
+    position: absolute;
+    border: 3px solid green;
+    width: 200px;
+    left: 31%;
+    top: 64px;
+}
+.dnone {
+    border: 1px solid #000;
+    padding: 20px 20px;
+}
+.dnone2 {
+    display: none;
+}
+.k1,.k2 {
+    display: inline;
+}
+.block,.k3,.k4 {
+    display: block;
+}
+.inblock {
+    border: 3px dotted #000;
+}
+.backgreen {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    height: 30px;
+    overflow: auto;
+}
+.bgreen {
+    border: 3px dotted #000;
+    margin-top: 30px;
+}
+.zindex {
+    /* position: relative; */
+    background: rgb(32, 218, 32);
+    margin: 30px;
+    width: 153px;
+    
+}
+.property {
+    /* position: absolute; */
+    width: 400px;
+}
+.min img {
+    float: left;
+}
+.min p {
+    float: right;
+}
+.fright {
+    border: 3px dotted #000;
+    
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a6b3c3;
+  }
+  
+  li {
+    float: right;
+  } */
+
+  .theme {
+    background-color: #aaa;
+  }
+  .bin {
+    background-color: #fff;
+  }
+  .theme1 h2 {
+    padding: 7px 95px;
+    font-size: 25px;
+    margin-bottom: 0rem;
+  }
+  
+ 
