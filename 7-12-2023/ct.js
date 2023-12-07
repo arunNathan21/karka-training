@@ -8,8 +8,10 @@ fetchData.then(response =>{
     return response.json()
 })
 .then(data=>{
-    console.log("data:" , data);
-    let table =
+    // console.log("data:" , data);
+    
+    
+        let table =
 `<table border="1">
     <tr>
         <th>Si No</th>
@@ -19,19 +21,24 @@ fetchData.then(response =>{
 
         
     </tr>
-    ${data.map((d)=>
-        // console.log(d.id)
-        `
-        <tr>
-            <td>${d.id}</td>
-            <td>${d.userId}</td>
-            <td>${d.title}</td>
-            <td>${d.completed}</td>
-        </tr>
-        
-    `).join("")}
+    ${data.map((c)=>{
+        if (c.completed== true) {
+           return  `
+           <tr>
+               <td>${c.id}</td>
+               <td>${c.userId}</td>
+               <td>${c.title}</td>
+               <td>${c.completed}</td>
+           </tr>
+           
+       ` 
+        }
+       
+}).join("")}
 </table>`
 document.getElementById("tab").innerHTML=table;
+    
+    
     
 })
  
