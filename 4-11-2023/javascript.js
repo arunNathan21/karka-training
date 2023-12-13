@@ -6,3 +6,5 @@ const reArr= []
     
  }
  console.log(reArr);
+
+ 
