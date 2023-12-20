@@ -1,0 +1,69 @@
+{
+    "data":[
+    {
+      "image": "image/ch1.png",
+      "name": " Men Polo ",
+      "prize": 399.0,
+      "size": "L"
+
+    },
+    {
+        "image": "image/ch2.png",
+        "name": "Men Slim Fit ",
+        "prize": 853.0,
+        "size": "XXL"
+   
+    },
+    {
+        "image": "image/ch3.png",
+        "name": " Regular ",
+        "prize": 344.0,
+        "size": "XL"
+    
+    },
+    {
+        "image": "image/ch1.png",
+        "name": "Men Slim Fit Solid Formal Shirt",
+        "prize": 399.00,
+        "size": "XL"
+    },
+    {
+        "image": "image/ch3.png",
+        "name": "Men T-Shirt",
+        "prize": 479.0,
+        "size": "XL"
+    },
+    {
+        "image": "image/ch2.png",
+        "name": "Solid Men Polo Neck T-Shirt",
+        "prize": 579.0,
+        "size": "XXL"
+    },
+    {
+        "image": "image/ch1.png",
+        "name": "Boys  T Shirt ",
+        "prize": 237.0,
+        "size": "L"
+    },
+    {
+        "image": "image/ch3.png",
+        "name": "Boys  T Shirt ",
+        "prize": 279.0,
+        "size": "L"
+    },
+    {
+        "image": "image/ch2.png",
+        "name": "Boys  T Shirt",
+        "prize": 499.0,
+        "size": "L"
+    },
+    {
+        "image": "image/ch1.png",
+        "name": "Solid  Neck T-Shirt",
+        "prize": 379.0,
+        "size": "L"
+    }
+  
+ 
+    ]
+}
