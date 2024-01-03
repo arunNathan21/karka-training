@@ -36,14 +36,18 @@ export const Register =()=>{
     
     return(
         <>
+         <div className="todo_input_item login">
         <h2>Registered Account </h2>
             <form onSubmit={handleClick}>
-                <label>UserName</label>
+                <div className=''>
+                <label>UserName: </label>
                 <input type='text' value={register.name} onChange={(e)=>setRegister({...register,name:e.target.value})}/><br/>
-                <label>Password</label>
+                </div>
+                <label>Password: </label>
                 <input type='password' value={register.pass} onChange={(e)=>setRegister({...register,pass:e.target.value})}/><br/>
-                <button>Register</button>
+                <button className="Reg">Register</button>
             </form>
+            </div>
            {/* <table>
             <tr>
                 <td>Sino</td>

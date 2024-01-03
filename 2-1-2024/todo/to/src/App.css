@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+Body {
+  background-color: #1f1e1e;
+  color: #fff;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Profile{
+ display: inline-block;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+            
+.prf {
+  float: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Logout {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e31c1c;
+  font-weight: 800;
+}
+.todo_wrapper {
+  background-color: #353443;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px rgb(27, 27, 27);
+}
+.todo_input {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 1px solid gray;
+  padding: 25px 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.todo_input_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.todo_input_item label {
+ 
+
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.todo_input_item input {
+  padding:  8px;
+  border: none;
+  width: 254px;
+}
+.todo_input_item input:focus {
+  outline: 2px solid rgb(0, 230, 122);
+}
+.add {
+  background-color: rgb(0, 230, 122);
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+  border-radius: 0px;
+  width: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+.add:hover {
+  background-color: rgb(4, 196, 106);
+}
+.secbtn {
+  background-color: rgb(97, 102, 99);
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active {
+  background-color: rgb(4, 196, 106);
+}
+.todo_list {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo_input_item2 {
+  background-color: #414040;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
+.todo_input_item2 h3 {
+  font-size: 25px;
+  color:  rgb(4, 196, 106);
+  font-weight: bold;
+  margin: 0;
+}
+.todo_input_item2 p {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  margin-top: 8px;
+}
+.icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #e31c1c;
+}
+.check_icon {
+  font-size: 25px;
+  margin: 10px;
+  color: rgb(0, 230, 122);
+}
+.check_icon:hover {
+  color: rgb(0, 230, 122);
+}
+.login {
+  align-items: center;
+  background-color: #353443;
+    padding: 2%;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgb(27, 27, 27);
+ 
+}
+.login label,h2 {
+  font-size: 24px;
+}
+button.log {
+  background: #2ba1d9;
+  border: 0;
+  padding: 12px 33px;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+button.Reg {
+  background: #2ba1d9;
+  border: 0;
+  padding: 12px 33px;
+  margin-top: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.createAcc {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
