@@ -17,6 +17,8 @@ export const Login=()=>{
             const datas =local.find((lst)=>lst.name === getdata.name && lst.pass === getdata.pass);
 
             if(datas) {
+                localStorage.setItem("loggedInUser", datas.name);
+                localStorage.setItem("loggedInPass", datas.pass);
                 alert("login sucess")
                 navigate('/Home')
 

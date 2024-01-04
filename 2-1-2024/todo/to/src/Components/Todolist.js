@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineDelete } from "react-icons/ai";
 import { TiTick } from "react-icons/ti";
 
@@ -18,7 +18,22 @@ export const Todolist=()=>{
                 let updatedtoolbar = [...alltodo];
                 updatedtoolbar.push(newTodolist)
                 setAlltodo(updatedtoolbar)
-                localStorage.setItem('alltodo')
+                localStorage.setItem('todolist',JSON.stringify(updatedtoolbar))
+        }
+
+        useEffect(()=>{
+            let savedTodo = JSON.parse(localStorage.getItem('todolist'));
+            if(savedTodo) {
+                setAlltodo(savedTodo);
+            }
+
+        },[])
+
+        const handleDelet= (index)  =>{
+            let reduceTodo = [...alltodo];
+            reduceTodo.splice(index);
+            localStorage.setItem('todolist',JSON.stringify(reduceTodo));
+            setAlltodo(reduceTodo)
         }
         
         
@@ -57,7 +72,7 @@ export const Todolist=()=>{
                             <div className="todo_input_item2" key={index}>
                                     <h3>{item.title}</h3>
                                 
-                                    <AiOutlineDelete className="icon" title="Delete?"/>
+                                    <AiOutlineDelete className="icon" title="Delete?" onClick={()=>handleDelet()}/>
                                     <TiTick className="check_icon" title="Complete?"/>
                             </div>
                             <div className="">
