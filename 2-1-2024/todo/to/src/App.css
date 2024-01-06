@@ -1,5 +1,5 @@
 Body {
-  background-color: #1f1e1e;
+  background-color: #092635;
   color: #fff;
   overflow: hidden;
 }
@@ -14,11 +14,14 @@ Body {
 .Logout {
   text-decoration: none;
   font-size: 20px;
-  color: #e31c1c;
+  color: #fff;
   font-weight: 800;
+  position: relative;
+  margin: 43px;
+  top: 8px;
 }
 .todo_wrapper {
-  background-color: #353443;
+  background-color: #1B4242;
   padding: 2%;
   width: fit-content;
   margin-left: auto;
@@ -52,6 +55,7 @@ Body {
   padding:  8px;
   border: none;
   width: 254px;
+  margin-top: 27px;
 }
 .todo_input_item input:focus {
   outline: 2px solid rgb(0, 230, 122);
@@ -60,7 +64,7 @@ Body {
   background-color: rgb(0, 230, 122);
   color: #fff;
   border: none;
-  margin-top: 25px;
+  margin-top: 56px;
   border-radius: 0px;
   width: 60px;
   padding: 10px;
@@ -125,7 +129,7 @@ Body {
 }
 .login {
   align-items: center;
-  background-color: #353443;
+  background-color: #1B4242;
     padding: 2%;
     width: -moz-fit-content;
     width: fit-content;
@@ -141,20 +145,22 @@ Body {
   font-size: 24px;
 }
 button.log {
-  background: #2ba1d9;
+  background: #5C8374;
   border: 0;
   padding: 12px 33px;
   margin-top: 15px;
   color: #fff;
+  float: right;
   cursor: pointer;
 }
 button.Reg {
-  background: #2ba1d9;
+  background: #5C8374;
   border: 0;
   padding: 12px 33px;
   margin-top: 15px;
   color: #fff;
   cursor: pointer;
+  float: right;
 }
 .createAcc {
   color: #fff;
@@ -163,7 +169,9 @@ button.Reg {
 }
 .profile {
   width: 50px;
-  height: 50px;
+    height: 50px;
+    color: #fff;
+    margin: 35px;
 }
 .gt {
   position: absolute;
@@ -174,4 +182,51 @@ button.Reg {
 .profile:hover .gt {
   display: block;
 } 
+.description {
+  margin-left: 26px;
+}
+.reset {
+  background-color: rgb(4, 196, 106);
+  border: 0;
+  padding: 9px;
+  color: #fff;
+  cursor: pointer;
+}
+.update {
+  background-color: rgb(157, 15, 152);
+  border: 0;
+  padding: 9px;
+  color: #fff;
+  cursor: pointer;
+}
+.up {
+  padding: 8px;
+    border: none;
+    width: 254px;
+}
+.profile-popup {
+  position: absolute;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #5C8374;
+  right: 10px;
+  
+}
+.profile-popup:before {
+  content: "";
+  position: absolute;
+  right: 42%;
+  top: -13px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right:26px solid #5c8374;
+  border-bottom: 13px solid transparent;
+}
 
+.word {
+  margin-left: 6px;
+}
+.login label, h2 {
+    font-size: 18px;
+}

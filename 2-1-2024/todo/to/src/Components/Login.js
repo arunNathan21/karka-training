@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 export const Login=()=>{
-
+    const [error,setError] = useState("")
     const navigate = useNavigate();
 
     const [getdata, setGetdata] = useState({
@@ -11,6 +11,7 @@ export const Login=()=>{
     })
     console.log(getdata);
     const handledataClick=()=>{
+        
         if(localStorage.getItem("userData")){
             const local = JSON.parse(localStorage.getItem("userData") || []);
 
@@ -23,7 +24,8 @@ export const Login=()=>{
                 navigate('/Home')
 
             } else {
-                alert("password wrong")
+                    setError('input field empty')
+                
             }
 
         }
@@ -32,16 +34,17 @@ export const Login=()=>{
     return(
         <>
         <div className="todo_input_item login">
-        <h2>Login Account</h2>
+        <h2>Login</h2>
         
             <form onSubmit={handledataClick}>
-                <label><b>UserName : </b></label>
+                <label><b>UserName </b></label>
                 <input type="text" value={getdata.name} onChange={(e)=>setGetdata({...getdata, name: e.target.value})}/> <br/> <br/>
-                <label><b>Password :    </b></label>
-                <input type="password" value={getdata.pass} onChange={(e)=>setGetdata({...getdata, pass: e.target.value})}/> <br/>
+                <label><b>Password     </b></label>
+                <input type="password" className="word" value={getdata.pass} onChange={(e)=>setGetdata({...getdata, pass: e.target.value})}/> <br/>
                 <button className="log">Login</button><br/>
-                <Link to="">Forget password</Link><br/>
-                <Link to="/Regiser" className="createAcc">Create Account</Link>
+                {/* <Link to="">Forget password</Link><br/> */}
+                <Link to="/Regiser" className="createAcc">Create Account!</Link>
+                <p>{error}</p>
             </form>
             </div>
         </>
