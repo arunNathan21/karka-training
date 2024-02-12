@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">num1</label>
+    <input type="text" id="name1"/>
+    <label for="">num2</label>
+    <input type="text" id="name2"/>
+
+    <button onclick="click()">Click</button>
+    <p id="para"></p>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+
+    <script>
+        function click() {
+            let doc1 =Number(document.getElementById("name1").value);
+            let doc2 = Number(document.getElementById("name2").value);
+            document.getElementById("para").innerHTML= (doc1 + doc2);
+            document.getElementById("para1").innerHTML= doc1 - doc2;
+            //let paras1 = doc1 + doc2;
+            //let paras3 =doc1 - doc2;
+            let paras4 =doc1 * doc2;
+            let paras5 =doc1 / doc2;
+
+            
+            
+            //para.innerHTML= paras1;
+            //para1.innerHTML= paras3;
+            para2.innerHTML= paras4;
+            para3.innerHTML= paras5; 
+        }
+    </script>
+</body>
+</html>

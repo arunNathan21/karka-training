@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textcontent</title>
+</head>
+<body>
+    <p id="paras" style="background-color: yellow;">hi</p>
+    <button onclick="change()">Click</button>
+    <script>
+        function change() {
+            let doc = document.getElementById("paras")
+            //doc.innerHTML ="hello"
+            //doc.innerText= "hello"
+            doc.textContent= "hello"
+            doc.style.backgroundColor="red";
+            doc.style.border="3px solid #000";
+            doc.style.color="white";
+            doc.style.padding="20px";
+            doc.style.fontSize="20px";
+            doc.style.fontFamily="";
+        }
+    </script>
+</body>
+</html>

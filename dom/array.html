@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <input type="text" id="inputdata"/>
+
+    <button onclick="arr()">Click</button>
+
+    <script>
+        let array = [];
+        function arr() {
+        let data = document.getElementById("inputdata").value; 
+        array.push(data);
+        document.getElementById("inputdata").value= "";
+        console.log(array)
+
+        }
+
+    </script>
+</body>
+</html>
